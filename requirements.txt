@@ -2,4 +2,4 @@ Python Packages: #in Thonny: Tools > Manage Packages
 
 pyttsx3
 sounddevice 
-numpy
+numpy (only for diagnosis) 
