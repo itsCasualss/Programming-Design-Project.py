@@ -44,16 +44,20 @@ def speak(message):
     
 
 
-
-# Standalone testing 
+#REMOVE the set of 3 apostrophe's to test output speech
 '''
+# Standalone testing  
 if __name__ == "__main__":
 
     print("Initializing voice interface...")
 
+    
+    speak("Turning on the Sprinkler: isstststststststststststststststststststststststst")
     speak("Howdy, The voice interface is initialized.")
 
-    speak("Pwwincess Jeong How can I assist you?")
+    speak("Pwwwwincess Jeong How can I assist you?")
+    
+    speak("Don't you just hate it when your cat wakes you up like this? Meow. Meow. Meow")
 
     print("Speech output test completed.")
-    '''
+ '''
