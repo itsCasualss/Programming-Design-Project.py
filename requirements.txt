@@ -1,5 +1,9 @@
-Python Packages: #in Thonny: Tools > Manage Packages 
+Python Packages for running:
 
 pyttsx3
-sounddevice 
-numpy (only for diagnosis) 
+sounddevice  
+vosk
+
+
+Packages used for diagnosing: 
+
