@@ -4,6 +4,9 @@ pyttsx3
 sounddevice  
 vosk
 
+Vosk API Model Website: https://alphacephei.com/vosk/models
+vosk-model-small-en-us-0.15
+Download zip link: https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
 
 Packages used for diagnosing: 
 
