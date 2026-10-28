@@ -1,2 +1,5 @@
-Python Packages: 
-    i) pyttsx3 #Version 2.99 
+Python Packages: #in Thonny: Tools > Manage Packages 
+
+pyttsx3
+sounddevice 
+numpy
