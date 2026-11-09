@@ -1,13 +1,6 @@
 
 """
 
-HEAVILY UTILITZED AI, Current time: 0259hrs 10/28/26
-Runs as anticipated however,
-
-ISSUES:
-Multiple commands being stated cause error, need to solve this by including another if statement. 
-
-
 Voice Interface - Speech Recognition
 Recognizes four voice commands using Vosk.
 """
