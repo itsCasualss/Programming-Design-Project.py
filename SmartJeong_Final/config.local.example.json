@@ -1,0 +1,12 @@
+{
+  "voice": {
+    "input_mode": "voice",
+    "audio_device": null
+  },
+  "speech": {
+    "player": "pw-play"
+  },
+  "display": {
+    "required": true
+  }
+}

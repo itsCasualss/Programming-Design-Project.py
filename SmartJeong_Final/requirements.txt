@@ -1,0 +1,10 @@
+# Portable software tests and information services
+requests==2.32.5
+feedparser==6.0.12
+icalendar==6.3.2
+recurring-ical-events==3.8.2
+Pillow==11.3.0
+numpy>=1.26,<3
+# Driver-level tests run real luma code with mocked electrical I/O.
+luma.core==2.6.0
+luma.lcd==2.13.0

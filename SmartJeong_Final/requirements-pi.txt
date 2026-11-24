@@ -1,0 +1,11 @@
+-r requirements-hardware.txt
+luma.oled>=3.13,<4
+sounddevice>=0.5,<1
+vosk==0.3.45
+onnxruntime>=1.20,<2
+tqdm>=4.66,<5
+scipy>=1.11,<2
+scikit-learn>=1.3,<2
+# openwakeword==0.6.0 is installed separately with --no-deps by install.sh.
+# All its ONNX runtime dependencies are explicitly listed above.
+# Its TFLite dependency is intentionally omitted; we always select ONNX.

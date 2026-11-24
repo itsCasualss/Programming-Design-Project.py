@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+logs/*.log
+models/*
+!models/.gitkeep
+config.local.json
+data/private_calendar.ics
+
+logs/
+reports/*.log
+data/personal_calendar.ics
+data/personal_pills.json

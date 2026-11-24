@@ -1,0 +1,64 @@
+{
+  "display": {
+    "backend": "st7735",
+    "rotate": 1,
+    "h_offset": 0,
+    "v_offset": 0,
+    "bgr": false,
+    "enabled": true,
+    "i2c_port": 1,
+    "i2c_address": "0x3C",
+    "width": 128,
+    "height": 64,
+    "timezone": "America/New_York",
+    "required": false,
+    "page_seconds": 3,
+    "spi_speed_hz": 1000000,
+    "spi_port": 0,
+    "spi_device": 0,
+    "dc_pin": 24,
+    "reset_pin": 25,
+    "inverse": false
+  },
+  "gpio": {
+    "enabled": true,
+    "status_led_pin": 17
+  },
+  "speech": {
+    "enabled": true,
+    "speed": 165,
+    "voice": "en-us",
+    "player": "auto",
+    "settle_seconds": 0.25
+  },
+  "voice": {
+    "input_mode": "keyboard",
+    "audio_device": null,
+    "wakeword_name": "hey_jarvis",
+    "wakeword_threshold": 0.5,
+    "vosk_model_path": "models/vosk-model-small-en-us-0.15",
+    "command_timeout_seconds": 8,
+    "command_backend": "austin"
+  },
+  "weather": {
+    "location_name": "Tampa",
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  },
+  "news": {
+    "rss_url": "https://feeds.bbci.co.uk/news/rss.xml",
+    "headline_count": 3
+  },
+  "schedule": {
+    "ics_url": "",
+    "local_file": "data/calendar.ics",
+    "demo": true
+  },
+  "pills": {
+    "file": "data/pills.json",
+    "demo": true
+  },
+  "timezone": "America/New_York",
+  "hold_seconds": 3,
+  "response_seconds": 60
+}

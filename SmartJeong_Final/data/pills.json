@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Demo Item A",
+    "times": [
+      "08:00",
+      "20:00"
+    ]
+  },
+  {
+    "name": "Demo Item B",
+    "times": [
+      "13:00"
+    ]
+  }
+]

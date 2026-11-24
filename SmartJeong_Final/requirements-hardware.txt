@@ -1,0 +1,7 @@
+# Pi 4 TFT + status LED + keyboard operation; voice recognition is separate.
+-r requirements.txt
+luma.core==2.6.0
+luma.lcd==2.13.0
+spidev==3.8
+RPi.GPIO==0.7.1
+gpiozero==2.0.1
